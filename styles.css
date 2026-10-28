@@ -64,6 +64,9 @@ address { font-style: normal; }
   text-decoration: none;
 }
 
+.brand { display: inline-flex; align-items: center; gap: 0.6rem; }
+.logo { height: 2.2rem; width: auto; }
+
 .nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; }
 .nav a {
   color: var(--avorio-soft);
@@ -81,6 +84,7 @@ address { font-style: normal; }
   padding: 3rem 16px;
   background:
     linear-gradient(90deg, rgba(20, 15, 14, 0.92) 0%, rgba(20, 15, 14, 0.55) 60%, rgba(107, 30, 42, 0.5) 100%),
+    url("images/hero.jpg") center / cover no-repeat,
     linear-gradient(160deg, #2A1D1B 0%, #3B1A1F 55%, #140F0E 100%);
 }
 

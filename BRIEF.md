@@ -28,7 +28,8 @@ Vetrina riconoscibile con identità, carta e percorso di prenotazione chiaro. Il
 - Direzione: contemporanea e urbana, con nero caldo, bordeaux e avorio. Distinta da La Calita.
 - Colori: nero `#140F0E`, nero morbido `#1F1716`, bordeaux `#6B1E2A`, bordeaux scuro `#4F1520`, avorio `#F3EDE2`.
 - Font: Oswald (titoli e pulsanti, maiuscolo), Inter (testo).
-- Immagini: nessuna fotografia del locale. Il sito usa gradienti scuri, senza immagini generiche.
+- File immagini attesi: `images/hero.jpg` (foto di copertina) e `images/logo.png` (logo). Se mancano, il sito usa i gradienti e il nome testuale.
+- Immagini: nessuna fotografia del locale nel repository. Il sito usa gradienti scuri, senza immagini generiche.
 
 ## 4. Struttura delle sezioni
 
