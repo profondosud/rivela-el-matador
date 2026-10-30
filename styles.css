@@ -535,3 +535,47 @@ footer{
 }
 
 
+/* Priorità a telefoni e tablet: lettura, tocchi e spazi sicuri. */
+.header nav a, .text-link, .back-top {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.text-link { border-bottom: 0; text-decoration: underline; text-underline-offset: 6px; }
+.hero-copy, .essence > div, .menu-section > div, .visit > div { min-width: 0; }
+@media (min-width: 701px) and (max-width: 1050px) {
+  .essence-copy, .menu-intro > p:not(.eyebrow), .visit > div > p:not(.eyebrow) { font-size: 15px; }
+  .dish-grid p, .menu-list article p, .contact-card > div { font-size: 14px; }
+  .dish-grid { gap: 20px; }
+  .image-frame { height: 260px; }
+}
+@media (max-width: 700px) {
+  .essence, .menu-section, .visit { grid-template-columns: minmax(0, 1fr); }
+  h2 { font-size: clamp(42px, 11.8vw, 53px); }
+  .reservation h2 { font-size: clamp(54px, 15vw, 70px); }
+  .lead, .essence-copy, .menu-intro > p:not(.eyebrow), .visit > div > p:not(.eyebrow) { font-size: 16px; }
+  .dish-grid p, .menu-list article p, .contact-card > div { font-size: 14px; }
+  .menu-list article > span { font-size: 14px; }
+  .menu-note, .reservation .reservation-note { font-size: 12px; }
+  .header nav a { font-size: 12px; }
+  .contact-card a { min-height: 44px; display: inline-flex; align-items: center; }
+  .contact-card > div { grid-template-columns: 100px minmax(0, 1fr); }
+  .contact-card a { overflow-wrap: anywhere; }
+  .mobile-book { bottom: calc(12px + env(safe-area-inset-bottom, 0px)); font-size: 14px; min-height: 50px; }
+  footer { padding-bottom: calc(100px + env(safe-area-inset-bottom, 0px)); }
+  .footer-bottom, .credits, .footer-main p, .back-top { font-size: 12px; }
+  .footer-bottom a, .credits summary { min-height: 44px; display: flex; align-items: center; }
+}
+@media (max-width: 360px) {
+  .wrap { width: calc(100% - 32px); }
+  .header nav { gap: 14px; }
+  .brand { font-size: 29px; }
+  .hero-photo { min-height: 400px; }
+  .image-frame { height: 330px; }
+  .contact-card > div { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+}
+@media (max-width: 1050px) and (orientation: landscape) and (max-height: 600px) {
+  .hero { padding-top: 30px; }
+  .hero-photo { min-height: 440px; }
+  .mobile-book { left: auto; width: 220px; }
+}

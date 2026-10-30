@@ -38,3 +38,6 @@ Rendering Chrome a 1440 e 390 px: tutte e quattro le immagini caricate, nessuno 
 
 ## Da perfezionare prima di un eventuale sito ufficiale
 Carta aggiornata e allergeni, orari confermati, file originale del logo, fotografie degli interni. Mantenere la dicitura di demo fino ad accordo con il locale.
+
+## Priorità mobile e tablet · 30/10/2026
+Su richiesta di Marco, la presentazione avverrà su telefono/tablet. Verificate larghezze 320, 360, 390, 430, 768, 820, 1024 e 1180 px. Corretto lo sforamento dei titoli sui telefoni piccoli, aumentati i testi descrittivi e le aree di tocco, aggiunti margini per la safe area iOS e versione CSS per invalidare la cache. Verifica Chrome con emulazione touch, orientamento verticale e orizzontale, foto, ancore della navigazione e destinazione dei pulsanti OpenTable. Queste verifiche non equivalgono a prove su dispositivi fisici o Safari.
